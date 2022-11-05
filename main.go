@@ -16,4 +16,7 @@ func main() {
 	fmt.Println(remainingTickets)
 	fmt.Println(&remainingTickets)
 
+	userTickets = 2
+	fmt.Printf("User %v booked %v tickets.\n", userName, userTickets)
+
 }
